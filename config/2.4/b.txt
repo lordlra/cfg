@@ -1,0 +1,6 @@
+;;;
+
+<Start> ::= "0" <Term> "0" | "1" <Term> "1" | "0" | "1"
+<Term>  ::= "0" <Term> | "1" <Term> | ""
+
+; comment
